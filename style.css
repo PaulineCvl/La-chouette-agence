@@ -1,3 +1,25 @@
+/* MODIFS */
+.row .text-center h2 {
+    font-size: 22px;
+    width: 60%;
+    margin: auto;
+    height: 85px;
+}
+
+.row .text-center span {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.voffset p {
+    font-size: 20px!important;
+    width: 85%!important;
+    margin: auto;
+    font-style: italic;
+}
+
+/* FIN */
+
 body {
     margin: 0;
     padding: 0;
