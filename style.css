@@ -44,6 +44,29 @@
     opacity: 0.8;
 }
 
+.navbar-nav > li > a {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav > li a:hover,
+.nav > li a:focus {
+    color: #F3976C!important;
+    background: transparent;
+}
+
+.form-contact {
+    padding: 50px;
+    margin: 0;
+}
+
+.contact {
+    background-color: #F3976C;
+    padding: 1em;
+    color: #212121!important;
+    text-align: center;
+}
+
 /* FIN */
 
 body {
@@ -374,11 +397,6 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
-}
-
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
 }
 
 .navbar-toggle {
@@ -721,7 +739,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -820,6 +838,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: 22px; /* MODIFS */
 }
 
 .btn-atomic-tangerine {
