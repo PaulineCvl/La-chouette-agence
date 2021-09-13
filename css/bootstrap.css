@@ -1435,7 +1435,6 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
     max-width: 100%;
     height: auto
 }
@@ -1508,7 +1507,6 @@ h5,
 h6 {
     font-family: inherit;
     font-weight: 500;
-    line-height: 1.1;
     color: inherit
 }
 

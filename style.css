@@ -1,9 +1,7 @@
 /* MODIFS */
 .row .text-center h2 {
     font-size: 22px;
-    width: 60%;
-    margin: auto;
-    height: 85px;
+    padding: 30px;
 }
 
 .row .text-center span {
@@ -13,8 +11,6 @@
 
 .voffset p {
     font-size: 20px!important;
-    width: 85%!important;
-    margin: auto;
     font-style: italic;
 }
 
@@ -604,7 +600,6 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -612,8 +607,9 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 a[data-lightbox]:hover img {
@@ -776,6 +772,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    margin-bottom: 15px!important; /* MODIFS */
 }
 
 .med-width-whitespace {
@@ -965,8 +962,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 30px!important; /* MODIFS */
+        padding-right: 30px!important; /* MODIFS */
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1047,6 +1044,7 @@ h4 {
     }
     .bloc-sm,
     .bloc-md {
+        padding-top: 0;
         padding-left: 0;
         padding-right: 0;
     }
@@ -1101,5 +1099,35 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    /*MODIFS */
+    h2 {
+        font-size: 20px!important;
+    }
+    .row .text-center h2 {
+        padding-bottom: 0;
+    }
+    .voffset p {
+        font-size: 18px!important;
+    }
+    .black-background {
+        padding: 30px 0;
+    }
+    .portfolio-row {
+        margin: 0;
+    }
+    .portfolio-thumb {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .black {
+        padding: 1em;
+    }
+    .fa {
+        float: left;
+    }
+    .icon-md {
+        width: 25%;
     }
 }
