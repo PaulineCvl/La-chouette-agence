@@ -1,4 +1,4 @@
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: https://paulinecvl.github.io/PaulineChevrollier_4_09092021/sitemap.xml
