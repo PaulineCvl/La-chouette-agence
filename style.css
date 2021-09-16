@@ -11,19 +11,20 @@
 
 .voffset p {
     font-size: 20px!important;
+}
+
+.citation {
     font-style: italic;
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
-    background-color: #212121;
-    padding: 0.5em;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .txt-btm {
-    background-color: #F3976C;
-    padding: 0.5em;
-    color: #212121!important;
+    color: #F3976C!important;
+    font-size: 22px;
 }
 
 .black {
@@ -765,6 +766,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    font-weight: 700; /* MODIF */
 }
 
 h3 {
@@ -834,7 +836,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FF9360!important;
     font-size: 22px; /* MODIFS */
 }
 

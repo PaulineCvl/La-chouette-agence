@@ -1,4 +1,0 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
-Sitemap: https://paulinecvl.github.io/PaulineChevrollier_4_09092021/sitemap.xml
