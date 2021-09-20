@@ -1134,12 +1134,6 @@ h4 {
     .black {
         padding: 1em;
     }
-    .fa {
-        float: left;
-    }
-    .icon-md {
-        width: 25%;
-    }
     .img-text {
         max-width: 320px;
         margin: auto;
@@ -1155,6 +1149,12 @@ h4 {
     h2 {
         font-size: 20px!important;
         text-align: center;
+    }
+    .fa {
+        float: left;
+    }
+    .icon-md {
+        width: 25%;
     }
 }
 
