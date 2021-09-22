@@ -5,12 +5,7 @@
 }
 
 .row .text-center span {
-    font-size: 14px;
     font-style: normal;
-}
-
-.voffset p {
-    font-size: 18px!important;
 }
 
 .citation {
@@ -62,7 +57,7 @@
 }
 
 .img-text {
-    max-width: 320px;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -738,7 +733,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .h1 {
@@ -766,10 +761,11 @@ h2 {
     font-weight: 700;
     color: #212121!important;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -796,7 +792,6 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-size: 16px;
 }
 
 .portfolio-thumb {
@@ -838,7 +833,7 @@ h4 {
 
 .tc-white {
     color: #FF9360!important;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .btn-atomic-tangerine {
@@ -1118,9 +1113,6 @@ h4 {
     .row .text-center h2 {
         padding-bottom: 0;
     }
-    .voffset p {
-        font-size: 18px!important;
-    }
     .black-background {
         padding: 30px 0;
     }
@@ -1148,7 +1140,6 @@ h4 {
 @media (max-width: 768px) {
     h2 {
         font-size: 20px!important;
-        text-align: center;
     }
     .fa {
         float: left;
