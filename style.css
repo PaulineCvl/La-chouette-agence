@@ -360,10 +360,11 @@ a:hover {
     font-weight: 600;
     line-height: 44px;
 }
-
-.navbar-brand img {
+.logo {
     height: 40px;
     width: 100%;
+}
+.navbar-brand img {
     margin: 0 5px 0 0;
     display: inline;
 }
