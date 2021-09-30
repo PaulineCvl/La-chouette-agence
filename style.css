@@ -1,6 +1,6 @@
 /* MODIFS */
 .cible-tactile {
-    padding: 20px!important;
+    min-height: 55px;
 }
 
 .row .text-center h2 {
