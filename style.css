@@ -74,6 +74,7 @@
 .navbar-nav > li > a {
     text-transform: uppercase;
     font-weight: 700;
+    padding: 20px;
 }
 
 .nav > li a:hover,
